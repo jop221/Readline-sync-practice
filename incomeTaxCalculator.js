@@ -3,4 +3,4 @@ const incomeTaxCalculator = (income) => {
     const a = 0.15
     return income * a
 };
-console.log(incomeTaxCalculator(readlineSync.question('Income(income):')));
+console.log(incomeTaxCalculator(readlineSync.question('income:')));
